@@ -1,5 +1,5 @@
 .banner {
-    background-color: var(--branco);
+    background: var(--branco);
     color: var(--preto);
     text-align: center;
     padding: 2.5em 2em;
@@ -30,6 +30,6 @@
     font-weight: 400;
     text-align: center;
     color: var(--cor-de-fundo);
-    background: url("..img/barra-de-pesquisa.svg") no-repeat;
+    background: url("../img/barra-de-pesquisa.svg") no-repeat;
     background-position: 1em;
 }
