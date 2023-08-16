@@ -19,7 +19,7 @@
         <div class="container">
             <input type="checkbox" id="menu" class="container__botao">
             <label for="menu">
-                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+                <span class="cabeçalho__dunderbzs container__imagem"></span>
             </label>
             <ul class="lista-menu">
                 <li class="lista-menu__titulo">Categorias</li>
@@ -39,19 +39,46 @@
             <img src="img/dunderbzslogo.svg" alt="Logo da Dunder BZ's" class="container__imagem">
             <h1 class="contato__título"><b class="contato__título--negrito">Dunder</b>BZ's</h1>
         </div>
-        <div class="container">
-            <a href="#"><img src="img/favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+
+         <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu">
+                <li class="opções__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Jogos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Consoles</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Controles</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Headsets</a>
+                </li>
+            </ul>
+            
+                <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+                <li class="opções__item"><a href="#" class="opções__link">Minha coleção</a></li>
+            </ul>
+
+            <div class="container">
+            <a href="#"><img src="img/favoritos.svg" alt="Meus favoritos" class="container__imagem container__imagem-transparente"></a>
             <a href="#"><img src="img/carrinho-de-compras.svg" alt="Carrinhos de compras" class="container__imagem"></a>
             <a href="#"><img src="img/usuario.svg" alt="Meu perfil" class="container__imagem"></a>
         </div>
     </header>
+    
     <section class="banner">
         <h2 class="banner__titulo">Já sabe o que comprar?</h2>
         <p class="banner__texto">A loja possui preços favoráveis ao seu gosto, além da loja online, há também uma loja física. Adquira já!</p>
         <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima gameplay?">
     </section>
     <section class="carrossel">
-        <h2 class="carrossel__titulo">Novos lançamentos</h2>
+        <h2 class="carrossel__titulo">Novos Lançamentos</h2>
     <!-- Slider main container -->
     <div class="swiper">
         <!-- Additional required wrapper -->
@@ -173,8 +200,10 @@
 </section>
 
     <section class="contato">
-        <h2 class="contato__título">Fique por dentro das novidades!</h2>
-        <p class="contato__texto">Atualização de lançamentos de jogos, novos consoles, promoções e outros</p>
+        <div class="contato__descrição">
+            <h2 class="contato__título">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualização de lançamentos de jogos, novos consoles, promoções e outros</p>
+        </div>
         <input type="email" class="contato__email" placeholder="Cadastre seu e-mail">
     </section>
 
