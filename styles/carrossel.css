@@ -72,6 +72,19 @@
     text-decoration: none;
 }
 
+.botões__ancôra a:hover {
+    color: var(--azul);
+}
+
+.botões__ancôra a:active {
+    color: rgb(31, 0, 170);
+}
+
+.botões__ancôra:hover {
+    background-color: var( --cinza-botão);
+    color: var(--cor-de-fundo);
+}
+
 @media screen and (min-width: 1024px) {
     
     .carrossel__titulo {
@@ -94,6 +107,19 @@
     .card {
         width: 40%;
         margin: 2em auto;
+    }
+
+    .botões__ancôra a:hover {
+        color: var(--azul);
+    }
+    
+    .botões__ancôra a:active {
+        color: rgb(31, 0, 170);
+    }
+    
+    .botões__ancôra:hover {
+        background-color: var( --cinza-botão);
+        color: var(--cor-de-fundo);
     }
 } 
     

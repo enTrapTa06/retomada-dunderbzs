@@ -29,6 +29,19 @@
     font-weight: 700;
 }
 
+.tópicos__link a:hover {
+    color: var(--azul);
+}
+
+.tópicos__link a:active {
+    color: rgb(31, 0, 170);
+}
+
+.tópicos__link:hover {
+    background-color: var( --cinza-botão);
+    color: var(--cor-de-fundo);
+}
+
 @media screen and (min-width: 1024px) {
     
     .tópicos__título {
@@ -37,5 +50,18 @@
 
     .tópicos__link {
         font-size: 24px;
+    }
+
+    .tópicos__link a:hover {
+        color: var(--azul);
+    }
+    
+    .tópicos__link a:active {
+        color: rgb(31, 0, 170);
+    }
+    
+    .tópicos__link:hover {
+        background-color: var( --cinza-botão);
+        color: var(--cor-de-fundo);
     }
 }
