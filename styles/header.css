@@ -66,6 +66,10 @@
     display: none;
 }
 
+.opções__item a:hover {
+    color: var(--branco);
+}
+
 @media screen and (min-width: 1024px) {
     
     .container__título, 
@@ -93,6 +97,10 @@
         text-transform: uppercase;
     }
 
+    .opções__item a:hover {
+        color: var(--branco);
+    }
+
     .opções__link {
         text-decoration: none;
         color: var(--preto);
@@ -114,5 +122,4 @@
     .opções__botão {
         display: none;
     }
-
 }
