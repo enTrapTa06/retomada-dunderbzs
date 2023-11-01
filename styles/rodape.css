@@ -40,3 +40,15 @@ hr {
         font-size: 18px;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    
+    .lista-rodapé {
+        border-left: 1px solid var(--cinza-botão);
+        padding-left: 1em;
+    }
+
+    .rodapé {
+        padding: 3em 0;
+    }
+}
